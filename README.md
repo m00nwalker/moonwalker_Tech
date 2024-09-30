@@ -12,6 +12,7 @@ We used pnpm as the package manager due to it being faster. This package was ins
 - React
 - React-DOM
 - Tailwind CSS
+- Tailwind Prettier plugin
 - ESlint
 - TypeScript
 - NextJS

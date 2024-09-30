@@ -8,9 +8,15 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        orbitron: ['Orbitron', 'sans-serif'],
+        robotMono: ['Roboto Mono', 'monospace'],
+      },
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        // background: "var(--background)",
+        // foreground: "var(--foreground)",
+        electricBlue: '#00D1FF', // Electric Blue
+        neonGreen: '#39FF14', // Neon green on hover effect
       },
     },
   },
