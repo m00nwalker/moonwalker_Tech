@@ -25,3 +25,27 @@ body {
     text-wrap: balance;
   }
 }
+
+@keyframes pulse {
+  0%, 100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+    filter: drop-shadow(0 0 20px rgb(245, 177, 245)); /* Neon purple glow */
+  }
+}
+
+.footprint {
+  transition: opacity 0.5s ease-in-out; /* Smooth fading */
+  opacity: 0; /* Start with invisible footprint */
+}
+
+.pulse {
+  animation: pulse 2s infinite;
+}
+
+/* Add a class to show footprint when pulsing */
+.pulse:hover + .footprint {
+  opacity: 1; /* Show footprint on hover */
+}
