@@ -19,7 +19,7 @@ export default function Header() {
           <Link href="#quote"
             className="hover:text-neonGreen transition-colors duration-300">Quote
           </Link>
-          <Link href="/signin"
+          <Link href="/signIn"
             className="hover:text-neonGreen transition-colors duration-300">Sign In
           </Link>
         </nav>

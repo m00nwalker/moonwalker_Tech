@@ -1,4 +1,4 @@
-export default function Blog() {
+export default function Applications() {
     return (
         <p>This is my Applications Service Page</p>
     );
