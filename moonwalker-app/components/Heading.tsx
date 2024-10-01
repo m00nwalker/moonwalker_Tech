@@ -3,7 +3,7 @@ import Logo from "./logo";
 
 export default function Header() {
   return (
-    <div className="w-full bg-gradient-to-b from-gray-800 via-gray-900 to-black text-electricBlue pb-2 shadow-lg">
+    <div className="w-full bg-gradient-to-b from-gray-800 via-gray-900 to-black text-electricBlue py-4 md:py-6 lg:py-8 shadow-lg">
         <div className="container mx-auto flex justify-between items-center px-2.5">
         {/* Logo */}
         <Logo />
