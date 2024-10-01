@@ -10,13 +10,13 @@ export default function Header() {
         
         {/* Navigation */}
         <nav className="flex space-x-8 text-xl 2font-robotoMono">
-          <Link href="/about"
+          <Link href="#about"
             className="hover:text-neonGreen transition-colors duration-300">About Us
           </Link>
-          <Link href="/services"
+          <Link href="#services"
             className="hover:text-neonGreen transition-colors duration-300">Services
           </Link>
-          <Link href="/quote"
+          <Link href="#quote"
             className="hover:text-neonGreen transition-colors duration-300">Quote
           </Link>
           <Link href="/signin"
